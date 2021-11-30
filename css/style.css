@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+/*Header*/
+
+.header_container {
+  font-family: sans-serif;
+  text-decoration: none;
+
+  span {
+    color: blue;
+  }
+
+  .container {
+    display: flex;
+    place-content: space-between;
+  }
+}
+
+/*Search With Filters*/
+
+.navigation_container {
+  font-family: sans-serif;
+  text-decoration: none;
+
+  #navheading {
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+
+  .search {
+    color: blue;
+    padding: 0.6em 1.4em;
+    font-size: 1.3em;
+    border-radius: 4em;
+    font-weight: bold;
+  }
+
+  .filter_heading {
+    font-weight: bold;
+  }
+}
+
+/*Accommodations*/
+
+.accommodations_container {
+  background-color: gray;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+/*Activities*/
+
+.activities_container {
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+/*Footer*/
+
+.footer_container {
+  background-color: gray;
+  text-decoration: none;
+
+  ul.footer_list {
+    list-style-type: none;
+  }
+}
